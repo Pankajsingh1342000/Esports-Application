@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1035310809442",
+    "project_id": "esport-games-7d571",
+    "storage_bucket": "esport-games-7d571.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035310809442:android:d0671aef52e2af5d802c3b",
+        "android_client_info": {
+          "package_name": "com.example.esportgames"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaQPsvm7O3_VdveqB39wUeLiU3d1GVaJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
