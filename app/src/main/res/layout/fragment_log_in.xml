@@ -7,6 +7,13 @@
     android:padding="24dp"
     android:gravity="center_vertical"
     tools:context=".feature.auth.fragment.LogInFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:gravity="center_horizontal"
+        android:textSize="40sp"
+        android:layout_marginBottom="30dp"/>
 
     <EditText
         android:id="@+id/phoneEditText"
@@ -14,6 +21,10 @@
         android:layout_height="wrap_content"
         android:hint="Phone Number"
         android:inputType="phone"
+        android:paddingStart="5dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:background="@drawable/bg_edit_text"
         android:layout_marginBottom="24dp" />
 
     <Button
