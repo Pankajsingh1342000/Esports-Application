@@ -1,15 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".feature.home.fragment.HomeFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".feature.home.fragment.HomeFragment"
+    android:padding="10dp">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/select_game"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Home"
-        android:layout_gravity="center"/>
+        android:text="Select Your Game"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
 
-</FrameLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/game_card"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:elevation="10dp"
+        android:padding="20dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/select_game"
+        app:layout_constraintVertical_bias="0.18">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img"
+            android:scaleType="centerCrop"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/game_card"
+        app:layout_constraintStart_toStartOf="@+id/game_card"
+        app:layout_constraintTop_toBottomOf="@id/game_card"
+        app:layout_constraintVertical_bias="0.29000002">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Esports"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Play BGMI / FREE FIRE / Matches Everyday &amp; Earn Money"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

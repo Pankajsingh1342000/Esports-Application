@@ -9,5 +9,35 @@
         android:id="@+id/homeFragment"
         android:name="com.example.esportgames.feature.home.fragment.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_gamesFragment"
+            app:destination="@id/gamesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamesFragment"
+        android:name="com.example.esportgames.feature.home.fragment.GamesFragment"
+        android:label="fragment_games"
+        tools:layout="@layout/fragment_games" >
+        <action
+            android:id="@+id/action_gamesFragment_to_tournamentDetailFragment"
+            app:destination="@id/tournamentDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tournamentDetailFragment"
+        android:name="com.example.esportgames.feature.home.fragment.TournamentDetailFragment"
+        android:label="fragment_tournament_detail"
+        tools:layout="@layout/fragment_tournament_detail" >
+
+        <argument android:name="bannerResId" app:argType="integer" />
+        <argument android:name="time" app:argType="string" />
+        <argument android:name="title" app:argType="string" />
+        <argument android:name="prize" app:argType="string" />
+        <argument android:name="type" app:argType="string" />
+        <argument android:name="slots" app:argType="string" />
+        <argument android:name="entryFee" app:argType="string" />
+        <argument android:name="countdown" app:argType="string" />
+        <argument android:name="organizer" app:argType="string" />
+
+    </fragment>
 </navigation>

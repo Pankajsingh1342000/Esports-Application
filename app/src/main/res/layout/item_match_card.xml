@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#242F6B"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/bannerImage"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/banner" />
+
+            <TextView
+                android:id="@+id/matchTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8:00pm"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingTop="8dp" />
+
+            <TextView
+                android:id="@+id/matchTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 VS 1 LONE WOLF"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="4dp"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/prize"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Prize: Rs. 30"
+                    android:textColor="#FFEB3B" />
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="SOLO"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/slots"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1/2"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/entry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entry: 20 coins"
+                android:textColor="#FFA726"
+                android:paddingTop="4dp" />
+
+            <TextView
+                android:id="@+id/countdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registration ends in: 00hr 06min 58s"
+                android:textColor="#FFEB3B"
+                android:paddingTop="4dp" />
+
+            <TextView
+                android:id="@+id/organizerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hunter ESP"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:paddingTop="4dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
