@@ -16,9 +16,9 @@ class ResultFragment : Fragment() {
     private lateinit var resultAdapter: ResultAdapter
     val resultList = listOf(
         ResultModel("Free Fire", "John", "₹1000", "12 Apr 2025", R.drawable.banner),
-        ResultModel("PUBG Mobile", "Alice", "₹750", "11 Apr 2025", R.drawable.banner),
-        ResultModel("Valorant", "Leo", "₹2000", "10 Apr 2025", R.drawable.banner),
-        ResultModel("BGMI", "Raj", "₹500", "09 Apr 2025", R.drawable.banner)
+        ResultModel("PUBG Mobile", "Alice", "₹750", "11 Apr 2025", R.drawable.banner_pubg),
+        ResultModel("Valorant", "Leo", "₹2000", "10 Apr 2025", R.drawable.banner_valorant),
+        ResultModel("PUBG Mobile", "Raj", "₹500", "09 Apr 2025", R.drawable.banner)
     )
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

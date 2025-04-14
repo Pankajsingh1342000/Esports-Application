@@ -17,14 +17,14 @@ class MatchFragment : Fragment() {
     private lateinit var matchAdapter: MatchTodayAdapter
     private val matchList = listOf(
         MatchTodayModel("Free Fire", "4:00 PM", "Solo", "₹20", "₹1000", "45/100", R.drawable.banner),
-        MatchTodayModel("BGMI", "6:00 PM", "Duo", "₹30", "₹1500", "60/100", R.drawable.banner),
-        MatchTodayModel("Valorant", "8:00 PM", "Squad", "₹50", "₹2000", "30/50", R.drawable.banner),
+        MatchTodayModel("BGMI", "6:00 PM", "Duo", "₹30", "₹1500", "60/100", R.drawable.banner_pubg),
+        MatchTodayModel("Valorant", "8:00 PM", "Squad", "₹50", "₹2000", "30/50", R.drawable.banner_valorant),
         MatchTodayModel("Free Fire", "4:00 PM", "Solo", "₹20", "₹1000", "45/100", R.drawable.banner),
-        MatchTodayModel("BGMI", "6:00 PM", "Duo", "₹30", "₹1500", "60/100", R.drawable.banner),
-        MatchTodayModel("Valorant", "8:00 PM", "Squad", "₹50", "₹2000", "30/50", R.drawable.banner),
+        MatchTodayModel("BGMI", "6:00 PM", "Duo", "₹30", "₹1500", "60/100", R.drawable.banner_pubg),
+        MatchTodayModel("Valorant", "8:00 PM", "Squad", "₹50", "₹2000", "30/50", R.drawable.banner_valorant),
         MatchTodayModel("Free Fire", "4:00 PM", "Solo", "₹20", "₹1000", "45/100", R.drawable.banner),
-        MatchTodayModel("BGMI", "6:00 PM", "Duo", "₹30", "₹1500", "60/100", R.drawable.banner),
-        MatchTodayModel("Valorant", "8:00 PM", "Squad", "₹50", "₹2000", "30/50", R.drawable.banner)
+        MatchTodayModel("BGMI", "6:00 PM", "Duo", "₹30", "₹1500", "60/100", R.drawable.banner_pubg),
+        MatchTodayModel("Valorant", "8:00 PM", "Squad", "₹50", "₹2000", "30/50", R.drawable.banner_valorant)
     )
 
     override fun onCreateView(

@@ -19,17 +19,17 @@ class GamesFragment : Fragment() {
     val dummyMatches = listOf(
         MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
         MatchModel(R.drawable.banner, "9:00pm", "Squad Showdown", "Rs. 100", "SQUAD", "3/4", "50 coins", "00hr 25min 12s", "Pro Squad"),
-        MatchModel(R.drawable.banner, "9:00pm", "Squad Showdown", "Rs. 100", "SQUAD", "3/4", "50 coins", "00hr 25min 12s", "Pro Squad"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
-        MatchModel(R.drawable.banner, "8:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP")
+        MatchModel(R.drawable.banner_pubg, "9:00pm", "Squad Showdown", "Rs. 100", "SQUAD", "3/4", "50 coins", "00hr 25min 12s", "Pro Squad"),
+        MatchModel(R.drawable.banner, "4:00pm", "1 VS 1 LONE WOLF", "Rs. 90", "SOLO", "1/2", "30 coins", "00hr 06min 58s", "Hunter ESP"),
+        MatchModel(R.drawable.banner_valorant, "6:00pm", "Squad Showdown", "Rs. 30", "SQUAD", "4/4", "50 coins", "00hr 06min 58s", "Pro Squad"),
+        MatchModel(R.drawable.banner, "3:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP"),
+        MatchModel(R.drawable.banner_pubg, "7:00pm", "Squad Showdown", "Rs. 60", "SOLO", "1/2", "70 coins", "00hr 06min 58s", "Hunter ESP"),
+        MatchModel(R.drawable.banner, "2:00pm", "1 VS 1 LONE WOLF", "Rs. 80", "SQUAD", "2/4", "90 coins", "00hr 06min 58s", "Hunter ESP"),
+        MatchModel(R.drawable.banner, "9:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "70 coins", "00hr 06min 58s", "Pro Squad"),
+        MatchModel(R.drawable.banner_valorant, "1:00pm", "Squad Showdown", "Rs. 70", "SOLO", "1/2", "40 coins", "00hr 06min 58s", "Hunter ESP"),
+        MatchModel(R.drawable.banner, "7:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SQUAD", "3/4", "40 coins", "00hr 06min 58s", "Pro Squad"),
+        MatchModel(R.drawable.banner_pubg, "8:00pm", "Squad Showdown", "Rs. 70", "SOLO", "1/2", "60 coins", "00hr 06min 58s", "Pro Squad"),
+        MatchModel(R.drawable.banner, "4:00pm", "1 VS 1 LONE WOLF", "Rs. 30", "SOLO", "1/2", "20 coins", "00hr 06min 58s", "Hunter ESP")
     )
 
     override fun onCreateView(
